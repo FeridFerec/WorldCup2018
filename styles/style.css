@@ -1,0 +1,666 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+#header {
+    background-color: #000000;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 200px;
+    justify-content: center;
+}
+
+#header nav ul {
+    display: flex;
+    gap: 43.4px;
+}
+
+#header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 35px;
+    display: none !important;
+}
+
+/* header */
+/* section1 */
+main #section1 {
+    background-color: #000000;
+    padding: 0px 200px;
+    height: 90vh;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+main #section1 #Sec1 #img1Sec1 {
+    width: 250px;
+    position: absolute;
+}
+
+main #section1 #Sec1 #img1Sec1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main #section1 #Sec1 #img2Sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 578px;
+    position: relative;
+    margin-left: 150px;
+}
+
+main #section1 #Sec1 #img2Sec1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* section1 */
+/* section2 */
+main #section2 {
+    padding: 0px 200px;
+}
+
+main #section2 #Sec2Box {
+    position: relative;
+    bottom: 90px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: end;
+    color: white;
+    background-color: black;
+    width: 450px;
+    height: 150px;
+    padding: 0px 10px;
+    column-gap: 10px;
+}
+
+main #section2 #Sec2Box i {
+    font-size: 25px;
+}
+
+main #section2 #Sec2Text {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+main #section2 #Sec2Text #Sec2Write {
+    width: 450px;
+    color: #111111;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main #section2 #imgSec2 {
+    width: 350px;
+    height: 450px;
+}
+
+main #section2 #imgSec2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main #section2 #Sec2Text #Sec2Write a {
+    text-decoration: none;
+    color: #111111;
+}
+
+/* section2 */
+/* section3 */
+main #section3 {
+    padding: 0px 200px;
+}
+
+main #section3 #Sec3Text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main #section3 #Sec3Text #Sec3Write {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: end;
+    width: 570px;
+    gap: 20px;
+}
+
+main #section3 #Sec3Text #Sec3Write a {
+    text-decoration: none;
+    color: #111111;
+}
+
+main #section3 #Sec3Text #imgSec3 {
+    width: 350px;
+    height: 450px;
+}
+
+main #section3 #Sec3Text #imgSec3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* section3 */
+/* section4 */
+main #section4{
+    background-color: #f2f2f2;
+    padding: 0px 200px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main #section4 #Sec4Text{
+    display: flex;
+    color: #111111;
+    padding: 40px 0px;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main #section4 #Sec4Text #Sec4Left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+main #section4 #Sec4Text #Sec4Left #imgSec4{
+    width: 350px;
+    height: 250px;
+}
+main #section4 #Sec4Text #Sec4Left #imgSec4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+main #section4 #Sec4Text #Sec4Left p{
+    width: 250px;
+}
+main #section4 #Sec4Text #Sec4Right p{
+    text-align: end;
+    width: 562px;
+}
+main #section4 #Sec4Text #Sec4Right h1{
+    text-align: end;
+    font-size: 70px;
+}
+main #section4 #Sec4Text #Sec4Right #Sec4Right2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+main #section4 #Sec4Text #Sec4Right #Sec4Right2 #h4{
+    display: flex;
+    gap: 85px;
+}
+main #section4 #Sec4Text #Sec4Right #Sec4Right2  p{
+    text-align: start;
+
+}
+/* section4 */
+/* section5 */
+main #section5 #Sec5 #Sec5H{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main #section5 #upperSec5{
+    background-color: #000000;
+    height: 18vh;
+    color: white;
+    padding: 0px 235px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main #section5 #upperSec5 #upperSec5H{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: 25px;
+}
+main #section5 #upperSec5 #upperSec5H h3{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+main #section5 #upperSec5 #imgupperSec5{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    bottom: 80px;
+}
+main #section5 #upperSec5 #imgupperSec5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+main #section5 #Sec5{
+    background-color: #f2f2f2;
+    padding: 50px 200px;
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main #section5 #Sec5 #Sec5Text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 673px;
+    flex-wrap: wrap;
+}
+main #section5 #Sec5 #Sec5Text #Sec5WriteLeft p{
+    width: 300px;
+    color: #111111;
+}
+main #section5 #Sec5 #Sec5Text #Sec5WriteRight p{
+    width: 300px;
+    color: #111111;
+}
+main #section5 #Sec5 #Sec5Text #Sec5Write{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+main #section5 #Sec5 #imgSec5{
+    width: 250px;
+    height: 350px;
+}
+main #section5 #Sec5 #imgSec5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+main #section5 #Sec5 #Sec5Text #Sec5WriteRight {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+main #section5 #Sec5 #Sec5Text #Sec5WriteRight a{
+    text-decoration: none;
+    color: #000000;
+    font-family: sans-serif;
+}
+/* section5 */
+/* section6*/
+main #section6{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 40px 220px;
+}
+main #section6 #Sec6{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main #section6 #Sec6 #Sec6Left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+main #section6 #Sec6 #Sec6Left h4{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+main #section6 #Sec6 #Sec6Left p a{
+    text-decoration: none;
+    margin-left: 8px;
+    color: #259bca;
+}
+main #section6 #Sec6 #Sec6Left h4{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+main #section6 #Sec6 #Sec6Left h2{
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 450px;
+}
+main #section6 #Sec6 #Sec6Left p{
+    width: 450px;
+}
+main #section6 #Sec6 #Sec6Right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+main #section6 #Sec6 #Sec6Right p{
+    width: 330px;
+}
+main #section6 #Sec6 #Sec6Right #imgSec6{
+    width: 330px;
+    height: 180px;
+}
+main #section6 #Sec6 #Sec6Right #imgSec6 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* section6 */
+/* section7 */
+main #section7{
+    padding: 40px 220px;
+}
+main #section7 #Sec7{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+main #section7 #Sec7 #Sec7Left #imgSec7{
+    width: 350px;
+    height: 450px;
+    position: relative;
+    bottom: 75px;
+}
+main #section7 #Sec7 #Sec7Left #imgSec7 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+main #section7 #Sec7 #Sec7Right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+}
+main #section7 #Sec7 #Sec7Right h1{
+    font-size: 16px;
+    color: #111111;
+    font-family: sans-serif;
+    width: 400px;
+}
+main #section7 #Sec7 #Sec7Right p{
+    font-family: sans-serif;
+    color: #111111;
+    width: 520px;
+}
+main #section7 #Sec7 #Sec7Right ul{
+    width: 450px;
+    margin-left: 17px;
+}
+main #section7 #Sec7 #Sec7Right ul li{
+    font-family: sans-serif;
+    color: #111111;
+}
+main #section7 #Sec7 #Sec7Right a{
+    text-decoration: none;
+    color: #111111;
+    font-family: sans-serif;
+}
+/* section7 */
+/* footer */
+footer{
+    background-color: #333333;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer #footer{
+    display: flex;
+    gap: 7px;
+}
+footer #footer a{
+    color: #259bca;
+}
+footer p{
+    color: white;
+}
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive design */
+@media(max-width:1200px){
+    main #section4 #Sec4Text #Sec4Left p{
+        margin-top: 0px;
+        width: fit-content;
+    }
+    main #section4 #Sec4Text #Sec4Left #imgSec4{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+    main #section4{
+        height: 160vh;
+    }
+    main #section5 #Sec5 #imgSec5{
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+}
+@media(max-width:985px) {
+    #header nav ul {
+        display: none;
+    }
+    main #section2 #Sec2Text #Sec2Write{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main #section2 #Sec2Text #Sec2Write p{
+        text-align: center;
+    }
+
+    .fa-bars {
+        display: block !important;
+    }
+    main #section5 #upperSec5{
+        padding: 0px;
+        height: 100%;
+    }
+    main #section5 #upperSec5 #imgupperSec5{
+        bottom: 0px;
+    }
+    main #section5 #upperSec5 #upperSec5H{
+        margin-top: 0px;
+    }
+    main #section4{
+        padding:  40px 0px;
+    }
+    main #section6{
+        padding: 0px;
+    }
+    main #section6 #Sec6 #Sec6Left p{
+        width: fit-content;
+    }
+    main #section6 #Sec6 #Sec6Left h2{
+        width: fit-content;
+    }
+}
+
+@media(max-width:1100px) {
+    #header {
+        padding: 0px;
+    }
+
+    main #section1 {
+        padding: 0px;
+
+    }
+
+    main #section1 #Sec1 #img1Sec1 {
+        position: static;
+    }
+
+    main #section1 #Sec1 #img2Sec1 {
+        margin-left: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    main #section4 #Sec4Text #Sec4Right p{
+        text-align: center;
+        width: fit-content;
+    }
+    main #section6 #Sec6 #Sec6Right p{
+        width: fit-content;
+    }
+    main #section6 #Sec6{
+        display: flex;
+        align-items: center;
+    }
+    main #section6 #Sec6 #Sec6Right #imgSec6{
+        width: 100%;
+        object-fit: cover;
+        height: 40%;
+    }
+
+}
+
+@media(max-width:1153px) {
+    main #section2 {
+        padding: 0px;
+    }
+
+    main #section2 #Sec2Text {
+        justify-content: center;
+    }
+
+    main #section2 #Sec2Box {
+        width: fit-content;
+    }
+
+    main #section2 #Sec2Text #Sec2Write {
+        width: fit-content;
+    }
+
+    main #section3 {
+        padding: 0px;
+    }
+
+    main #section3 #Sec3Text {
+        justify-content: center;
+    }
+
+    main #section3 #Sec3Text #Sec3Write {
+        width: fit-content;
+    }
+    main #section5 #Sec5{
+        padding: 0px;
+    }
+    main #section5 #Sec5 #Sec5Text{
+        width: fit-content;
+    }
+    main #section5 #Sec5 #Sec5Text #Sec5WriteLeft p{
+        width: fit-content;
+    }
+    main #section5 #Sec5 #Sec5Text #Sec5WriteRight p{
+        width: fit-content;
+    }
+}
+@media(max-width:950px){
+    main #section7{
+        padding: 100px 0px;
+    }
+    main #section7 #imgSec7{
+        bottom: 0px;
+    }
+    main #section7 #Sec7 #Sec7Right ul{
+        width: fit-content;
+    }
+    main #section7 #Sec7 #Sec7Right h1{
+        width: fit-content;
+    }
+    main #section7 #Sec7 #Sec7Right p{
+        width: fit-content;
+    }
+    main #section7 #Sec7 #Sec7Right{
+        margin-top: 0px;
+    }
+}
+@media(max-width: 651px){
+    main #section4{
+        height: 133vh;
+    }
+}
+@media(max-width: 451px){
+    main #section4{
+        height: 100vh;
+    }
+}
